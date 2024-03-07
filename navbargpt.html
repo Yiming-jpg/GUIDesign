@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Add Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Navbar Example</title>
+    <style>
+        /* Basic CSS for the navbar */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #FFBFAF;
+        }
+
+        .top-row {
+            background-color: white;
+        }
+        
+        .top-row-content {
+            background-color: #d1341f;
+            color: white;
+            padding: 12px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: 80px; /* Left margin */
+            margin-right: 80px; /* Right margin */
+            border-radius: 230px 100px;
+        }
+
+        .navbar {
+            background-color: white;
+        }
+
+        .navbar-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 20px;
+            padding: 24px 20px;
+            margin-left: 80px; /* Left margin */
+            margin-right: 80px; /* Right margin */
+        }
+
+        .navbar-left {
+            flex: 1;
+        }
+
+        .brand-name {
+            color: #d1341f;
+            font-size: 34px;
+            font-weight: bold;
+        }
+
+        .navbar-middle {
+            flex: 2;
+            text-align: center;
+        }
+
+        .navbar-middle a {
+            color: #d1341f;
+            
+            text-decoration: none;
+            margin: 0 20px;
+        }
+
+        .navbar-middle a:hover {
+            color: #ddd;
+        }
+
+        .navbar-right {
+            flex: 1;
+            text-align: right;
+        }
+
+        .navbar-right a {
+            color: #d1341f;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .navbar-right a:hover {
+            color: #ddd;
+        }
+        
+    </style>
+</head>
+<body>
+
+<!-- Top Row -->
+<div class="top-row">
+    <div class="top-row-content">
+        <div><i class="fa fa-phone"></i> 1235 2355 98</div>
+        <div><i class="fas fa-envelope me-2 text-secondary"></i> YOUREMAIL@EMAIL.COM</div>
+        <div>3-5 BUSINESS DAYS DELIVERY & FREE RETURNS</div>
+    </div>
+</div>
+<!-- Navbar -->
+<div class="navbar">
+    <div class="navbar-content">
+        <div class="navbar-left">
+            <span class="brand-name">Toyland</span>
+        </div>
+        <div class="navbar-middle">
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="about.html">About Us</a>
+        </div>
+        <div class="navbar-right">
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            <a href="#"><i class="fas fa-user"></i></a>
+        </div>
+    </div>
+</div>
+
+
+<!-- Your page content goes here -->
+
+
+</body>
+</html>
